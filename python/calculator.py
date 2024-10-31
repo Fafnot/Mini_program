@@ -1,14 +1,35 @@
+spisak = []
+
 while True:
+
     a = int(input("vedi: "))
+    spisak.append(a)
     if a == 0:
-        spisak = []
-        spisak.append(a)
+        del spisak[-1]
         break
 
+user_input = input("vedie: ")
 
-c = str(input("vedi: "))
-if c == "+":
-    print(max(spisak))
+if user_input == "+":
+    a = sum(spisak)
+
+if user_input == "-":
+    
+
+print(spisak)
+print(a)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
